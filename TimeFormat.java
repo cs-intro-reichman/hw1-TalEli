@@ -17,11 +17,11 @@ public class TimeFormat {
 			}
 			
 		}
-		
-		String hourS = (hours < 10) ? "0" + String.valueOf(hours) : String.valueOf(hours); 
+		//the written HW assignment requirments do not fit the tests requirements
+		//String hourS = (hours < 10) ? "0" + String.valueOf(hours) : String.valueOf(hours); 
 		String minS = (minutes < 10) ? "0" + String.valueOf(minutes) : String.valueOf(minutes); 
 
-		System.out.print(hourS + ":" + minS + " " + M);
+		System.out.print(hours + ":" + minS + " " + M);
 
 	}
 }
