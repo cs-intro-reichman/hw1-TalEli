@@ -2,17 +2,19 @@
 public class NumWords {
 	public static void main(String args[]) {
 	    int n = Integer.parseInt(args[0]);
+		int ones=0;
+		int tens=0;
+
 		if (n > 0){ 
-			System.out.print(n % 10 + " ones,");
+			ones=n % 10;
 			n = n/10; 
 			if (n > 0) {
-				System.out.print(n % 10 + " tens,");
+				tens=n % 10;
 				n = n/10; 
-				if (n > 0) {
-					System.out.print(n + " hundreds");
-				}
 			}
+		
 		}
-	}
+		System.out.println(n+" hundreds, "+tens+" tens, and "+ones+" ones.");
+	}//5 hundreds, 1 tens, and 7 ones.
 	 
 	}
