@@ -15,6 +15,6 @@ public class NumWords {
 		
 		}
 		System.out.println(n+" hundreds, "+tens+" tens, and "+ones+" ones.");
-	}//5 hundreds, 1 tens, and 7 ones.
+	}
 	 
 	}
