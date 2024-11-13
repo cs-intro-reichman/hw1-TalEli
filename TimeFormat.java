@@ -21,7 +21,7 @@ public class TimeFormat {
 		String hourS = (hours < 10) ? "0" + String.valueOf(hours) : String.valueOf(hours); 
 		String minS = (minutes < 10) ? "0" + String.valueOf(minutes) : String.valueOf(minutes); 
 
-		System.out.print(hourS + ":" + minS + "" + M);
+		System.out.print(hourS + ":" + minS + " " + M);
 
 	}
 }
