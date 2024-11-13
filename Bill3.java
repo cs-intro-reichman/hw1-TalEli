@@ -10,8 +10,8 @@ public class Bill3 {
 		double finalSum = sum/3.0;
 
 		finalSum= Math.ceil(finalSum);
-		System.out.print("Dear "+ name1+", " + name2 +", and "+ name3 + ": pay " + finalSum + " Shekels each." );
-//Dear Dan, Lisa, and Ron: pay 34.0 Shekels each.
+		System.out.print("Dear "+ name3+", " + name2 +", and "+ name1 + ": pay " + finalSum + " Shekels each" );
+
 	}
 }
 
